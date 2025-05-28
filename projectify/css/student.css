@@ -1,0 +1,475 @@
+.panel .overview1,
+.panel .milestones1,
+.panel .assignemnt1{
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.panel .overview1 h1,
+.panel .milestones1 h1,
+.panel .assignemnt1 h1{
+  color: #ffffff;
+  margin-left: 2%;
+  margin-bottom: 0;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.panel .overview1 .overview2{
+  display: flex;
+  margin: 1%;
+  min-height: 205px;
+}
+
+.over1,
+.over2,
+.over3,
+.over4{
+  background: rgb(41,41,41);
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+}
+
+.over1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.over1 .over1row1{
+  display: flex;
+  align-items: center;
+  margin-left: -300px;
+  margin-top: -200px;
+}
+
+.over1 .over1row2{
+  margin-top: 60px;
+}
+
+.over1 .over1column2{
+  margin-left: 15px;
+  margin-top: 230px;
+  margin-bottom: 40px;
+}
+
+.over1column2 p{
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-family: "Inter-Bold", sans-serif;
+  color: white;
+  margin-right: -100px;
+  margin-top: -15px;
+}
+
+.over1 img{
+  width: 39px;
+  height: 39px;
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 160px;
+}
+
+.over1 .duedatetable {
+  width: 120%;
+  border-collapse: collapse;
+  color: white;
+  font-weight: lighter;
+  font-family: "Inter-Bold", sans-serif;
+  text-align: center;
+  font-size: 10px;
+  margin-left: -30px; 
+  margin-top: -65px;
+  position: relative;
+}
+
+.over1 .duedatetable th, 
+.over1 .duedatetable td {
+  padding: 8px;
+  border: 3px solid white;
+  font-weight: bold;
+}
+
+.panel .overview1 .overview3{
+  display: table-column;
+  width: 30%;
+}
+
+.over2,
+.over3 {
+  width: 96%;
+  height: 48%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.over2 img{
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  margin-left: -125px;
+  margin-top: -45px;
+}
+
+.over2 .over2column2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.over2column2 p{
+  font-size: 15px;
+  font-family: "Inter-Bold", sans-serif;
+  color: white;
+  margin: 0;
+}
+
+.over2column2 .assignmentnumber{
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.over3 img{
+  width: 22px;
+  height: 22px;
+  margin-left: -105px;
+  margin-top: -45px;
+  position: absolute;
+}
+
+.over3 .over3column2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.over3column2 p{
+  font-size: 15px;
+  font-family: "Inter-Bold", sans-serif;
+  color: white;
+  margin: 0;
+}
+
+.over3column2 .channelnumber{
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.over4 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.over4 img{
+  width: 28px;
+  height: 28px;
+  margin-left: -140px;
+  position: absolute;
+}
+
+.over4 .over4row1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.over4 .over4column2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.over4column2 p,
+.over4 .subWork{
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: "Inter-Bold", sans-serif;
+  color: white;
+  margin: 0;
+  text-align: left;
+  display: flex;
+
+}
+
+.over4 .subWork{
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.milestones-container {
+  overflow-x: scroll hidden; 
+  scrollbar-width: thin; 
+  scrollbar-color: #141414 #ffffff;
+  margin-bottom: 4%;
+  width: 1200px;
+  margin-left: 25px;
+  border-radius: 4px;
+}
+
+.milestones-container:hover{
+  background-color: rgba(51,51,51);
+}
+
+.panel .milestones1 .milestones2{
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+
+.panel .milestones1 .milestones2 img {
+  margin-right: 0.5%;
+}
+
+.mile1{
+  background-image: url('../image/trial.png');
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 226px;
+  height: 76px;
+  opacity: 0.5;
+  color: white;
+}
+
+
+.miledate{
+  font-family: "Inter-Bold", sans-serif;
+  color: #000000; 
+  font-size: 18px; 
+  font-weight: bold;
+  z-index: 100;
+}
+.milestones3{
+  display: flex; 
+  flex-direction: column;
+  text-align: center;
+  width: min-content;
+}
+
+.milestones3 p{
+  font-family: "Inter-Bold", sans-serif;
+  color: #ffffff; 
+  font-size: 11px;
+  margin-top: 10px;
+  font-weight: bold;
+  word-spacing: 1px;
+  width: 250px;
+  margin-left: -20px;
+}
+
+.panel .assignment1 .assignment2{
+  margin: 1%;
+  overflow-x: scroll thin;
+}
+
+.tasktable {
+  border-collapse: collapse;
+  font-family: "Inter-Bold", sans-serif;
+  font-weight: lighter;
+  width:97%;
+  margin-bottom: 70px !important;
+  overflow-x: scroll thin;
+  margin: 12px;
+}
+
+.tasktable th {
+  font-size: 15px;
+  background-color: #141414;
+  color: white;
+  padding: 1%;
+  font-weight: lighter;
+  text-align: left;
+  border: 1px solid rgb(255, 255, 255,0.1);
+}
+
+.tasktable td {
+  background-color: rgba(41,41,41);
+  color: white;
+  padding-left: 1%;
+  text-align: left;
+  border: 1px solid rgb(255, 255, 255,0.1);
+}
+
+.tasktable tr:hover td {
+  background-color: rgb(51,51,51);
+}
+
+.tasktable .column1{
+  padding-left: 30px;
+  display: flex;
+}
+
+.detail{
+  display: table-column;
+}
+
+.tasktable .column1 .detail{
+
+}
+
+.tasktable .column1 .detail h1{
+  font-size: 12px;
+  display: flex;
+  font-weight: bold;
+  width: 100%;
+  margin-left: 35px;
+}
+
+.tasktable .column1 .detail p{
+  font-size: 12px;
+  display: flex;
+  font-weight: lighter;
+  color: rgb(101, 139, 255);
+  margin: 0;
+  margin-top: 2px;
+  margin-bottom: 9px;
+}
+
+.channel {
+  background: #6c6c6c;
+  border-radius: 5px;
+  width: 35px;
+  height: 35px;
+  margin-left: -18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Setting2{
+  position: absolute;
+  margin-left: 97%;
+  width: 31px;
+  height: 25px;
+  z-index: 1005;
+  margin-top: 9px;
+}
+.bell{
+  position: absolute;
+  margin-left: 94.5%;
+  width: 37px;
+  height: 30px;
+  z-index: 1005;
+  margin-top: 6px;
+}
+
+.blue_line1{
+  width: 4px;
+  height: 185px;
+  background-color: rgb(47, 89, 214);
+  margin-top: 260px;
+  margin-left: -68px;
+  border-radius: 40px 0px 0px 40px;
+  position: absolute;
+}
+.blue_line2{
+  width: 4px;
+  height: 85px;
+  background-color: rgb(47, 89, 214);
+  margin-left: -248px;
+  border-radius: 40px 0px 0px 40px;
+  position: absolute;
+}
+.blue_line3{
+  width: 4px;
+  height: 85px;
+  background-color: rgb(47, 89, 214);
+  margin-left: -248px;
+  border-radius: 40px 0px 0px 40px;
+  position: absolute;
+}
+.blue_line4{
+  width: 4px;
+  height: 185px;
+  background-color: rgb(47, 89, 214);
+  margin-left: -444px;
+  border-radius: 40px 0px 0px 40px;
+  position: absolute;
+}
+
+.column1 .detail{
+  margin-left: -20px;
+}
+
+.tasktable1 {
+  border-collapse: collapse;
+  font-family: "Inter-Bold", sans-serif;
+  font-weight: lighter;
+  width:97%;
+  margin-bottom: 70px !important;
+  overflow-x: scroll thin;
+  overflow-x: auto;
+  margin: 12px;
+}
+
+.tasktable1 th {
+  font-size: 15px;
+  background-color: #141414;
+  color: white;
+  padding: 1%;
+  font-weight: lighter;
+  text-align: left;
+  border: 1px solid rgb(255, 255, 255,0.1);
+}
+
+.tasktable1 td {
+  background-color: rgba(41,41,41);
+  color: white;
+  padding-left: 1%;
+  text-align: left;
+  border: 1px solid rgb(255, 255, 255,0.1);
+}
+
+.tasktable1 tr:hover td {
+  background-color: rgb(51,51,51);
+}
+
+.tasktable1 .column1{
+  padding-left: 30px;
+  display: flex;
+}
+
+.detail{
+  display: table-column;
+}
+
+.tasktable1 .column1 .detail{
+
+}
+
+.tasktable1 .column1 .detail h1{
+  font-size: 12px;
+  display: flex;
+  font-weight: bold;
+  width: 100%;
+  margin-left: 35px;
+}
+
+.tasktable1 .column1 .detail p{
+  font-size: 12px;
+  display: flex;
+  font-weight: lighter;
+  color: rgb(101, 139, 255);
+  margin: 0;
+  margin-top: 2px;
+  margin-bottom: 9px;
+}
+.tasktable1 tr th{
+  width: auto;
+  min-width: 50px;
+  max-width: 600px;
+}

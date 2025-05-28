@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    background-color: #141414;
+    min-height: fit-content;
+}
+
+.back{
+    max-height: 60px;
+    width: auto;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.choice{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    margin: 1%;
+}
+
+.title,
+.photo{
+    display: flex;
+}
+
+.choice h1,
+.choice p {
+    color: #ffffff;
+    font-family: "IstokWeb-Bold", sans-serif;
+    font-size: 26px;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-frame {
+    border-radius: 0px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    max-width: 170px; 
+    height: auto; 
+}
+
+.course{
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 2%;
+}
+
+.info{
+    margin: 2%;
+}
+
+.line {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.choice button {
+    display: flex; 
+    align-items: center; 
+    background-color: transparent;
+    color: #ffffff;
+    width: 100%;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    padding-left: 15%;
+    border: none;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.choice .button:hover,
+.choice button:hover {
+    background-color: #7493FF; 
+    color: black; 
+}
+
+.choice button img {
+    margin-right: 5%;
+    max-height: 62px;
+    width: auto;
+}
+
+.panel{
+    background-color: #ffffff;
+    border-radius: 2%;
+    width: 75%;
+    margin: 1%;
+    overflow: hidden;
+    min-height: 750px;
+}
+
+.panel .material1{
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.panel .material1 h1{
+    color: #141414;
+    margin-left: 2%;
+    margin-bottom: 0;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.panel .material1 .material2 p{
+    color: #141414;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 20px;
+    margin: 2%;
+    margin-top: 1%;
+}
+
+.export{
+    max-height: 50px;
+    width: auto;
+    position: absolute;
+    top: 4%;
+    right: 2%;
+}
+
+.material-container {
+    display: flex;
+    margin: 2%;
+}
+
+.material-panel {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background: #353434;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    margin-right: 2%;
+}
+
+.material-container img {
+    max-height: 60px;
+    width: auto;
+}

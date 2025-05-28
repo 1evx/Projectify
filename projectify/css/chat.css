@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Main Container */
+body{
+    margin: 0;
+}
+
+.main1{
+    display: flex;
+    background-color: rgb(23, 24, 25);
+    height: 775px;
+}
+
+.choice{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    margin: 1%;
+    padding-top: 20px;
+}
+  
+  .title,
+  .photo{
+    display: flex;
+  }
+  
+  .choice .title h1{
+    font-size: 20px;
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 5;
+    margin-top: 25px;
+  }
+  .choice .title img{
+    width: 30px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 20px;
+    z-index: 5
+  }
+  
+  .choice h1,
+  .choice p {
+    color: #ffffff;
+    text-align: center;
+    font-family: "IstokWeb-Bold", sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  
+  .profile-frame {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    max-width: 90px; 
+    height: auto; 
+    z-index: 1;
+  }
+  
+  .user-frame {
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 50px;
+    padding: 5px;
+    max-width: 90px; 
+    z-index: 2;
+  }
+  
+  .username {
+    font-family: "Inter-Bold", sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 10px;
+  }
+  
+  .institution {
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 11px !important;
+    font-weight: lighter;
+    margin: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .line {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1.5px;
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-bottom: 15px;
+    width: 90%;
+  }
+  
+  .choice button {
+    display: flex; 
+    align-items: center; 
+    background-color: transparent;
+    color: #ffffff;
+    width: 100%;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    padding-left: 10%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .choice .button:hover,
+  .choice button:hover {
+    background-color: rgb(39, 86, 249);
+    color: white; 
+  }
+  
+  .choice button img {
+    margin-right: 15%;
+    max-height: 30px;
+    width: auto;
+  }
+  
+  
+  .panel {
+    background-color: rgba(31,31,31);
+    width: 120%;
+    overflow: hidden;
+    height: 735.56px;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: -1px 4px 4px 2px;
+}
+
+
+
+.panel .overview1,
+.panel .milestones1,
+.panel .assignemnt1{
+    width: 100%;
+    margin-bottom: 5px;
+    height: 729px;
+}
+
+.panel .overview1 h1,
+.panel .milestones1 h1,
+.panel .assignemnt1 h1{
+    color: #141414;
+    margin-left: 2%;
+    margin-bottom: 0;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.panel .overview1 .overview2{
+    display: flex;
+    margin: 1%;
+    min-height: 330px;
+}
+
+/* The main container */
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    letter-spacing: 0.5px;
+    height: 70%;
+    margin-top: 50px;
+}
+
+.container img {
+    width: 40px;
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+/* Styling the msg-header container */
+.msg-header {
+    border: 1px solid black;
+    width: 100%;
+    height: 10%;
+    border-bottom: none;
+    display: inline-block;
+    background-color: rgba(41, 41, 41);
+    margin: 0;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-bottom: -4px;
+    margin-top: 10px;
+}
+
+.msgimg {
+    margin-left: 2%;
+    float: left;
+    color: white;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 20px; 
+    float: left;
+    margin: 1%;
+    margin-top: 50px;
+}
+
+.user-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgba(41, 41, 41);
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+/* styling user-name */
+.active {
+    width: 115px;
+    float: left;
+    color: black;
+    font-weight: bold;
+    margin: 4%;
+    background-color: rgba(41, 41, 41);
+    height: 5%;
+    border-bottom: 1px solid white;
+}
+
+.active select{
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgba(41, 41, 41);
+    -webkit-text-fill-color: white;
+    border-color: rgba(41, 41, 41);
+}
+
+.active select option {
+    border-radius: 0;
+    -webkit-text-fill-color: white;
+}
+
+
+/* Styling the chat box container */
+.chat-page {
+    padding: 0 0 50px 0;
+    background-color: rgba(41, 41, 41);
+    height: 540px;
+    border-radius: 0px 0px 7px 7px;
+}
+
+.msg-inbox {
+    border: 1.5px solid black;
+    overflow: hidden;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    height: 540px;
+}
+
+.chats {
+    padding: 30px 15px 10px 2px;
+}
+
+/* Styling the message page */
+
+.msg-page {
+    max-height: 450px;
+    min-height: 450px;
+    overflow-y: auto;
+}
+
+/* Styling the avatar  */
+received-chats-img {
+    display: inline-block;
+    width: 50px;
+    float: left;
+}
+
+.received-msg {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 92%;
+}
+.received-msg-inbox {
+    width: 57%;
+}
+
+.received-msg-inbox p {
+    background: rgba(51, 51, 51);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 1rem;
+    padding: 1rem;
+    display: inline-block; 
+    max-width: 500px; 
+    word-wrap: break-word; 
+}
+
+    p {
+    overflow-wrap: break-word;
+}
+
+/* Styling the msg-sent time  */
+.time {
+    color: #777;
+    display: block;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-right: 12px;
+    margin-top: -7px;
+}
+
+.outgoing-chats {
+    overflow: hidden;
+    margin: 5px 5px;
+}
+
+.outgoing-chats-msg {
+    float: right;
+    width: 100%; /* Make the container full width to align items on the right */
+    text-align: right; /* Align text to the right */
+    margin-bottom: 0.25rem; 
+}
+
+.outgoing-chats-msg p {
+    background-color: rgba(53, 53, 74);
+    border-radius: 5px;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 1rem; 
+    display: inline-block; 
+    max-width: 500px; 
+    word-wrap: break-word;
+    text-align: left; 
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+
+/* Styling the avatar */
+.outgoing-chats-img {
+    display: inline-block;
+    width: 50px;
+    margin-right: 0.5rem;
+}
+
+.msg-bottom {
+    border-top: 1.5px solid black;
+    position: relative;
+    height: 10%;
+    background-color: rgba(41, 41, 41);
+}
+/* Styling the input field */
+.input-group {
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    outline: none !important;
+    border-radius: 10px;
+    width: 98% !important;
+    background-color: rgba(41, 41, 41);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.input-group>.form-control {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+.form-control {
+    border: none !important;
+    border-radius: 10px !important;
+    display: block;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: rgb(41, 41, 41);
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.input-group-text {
+    background: transparent !important;
+    border: none !important;
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: b;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    font-weight: bold !important;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.send-icon {
+    font-weight: bold !important;
+}
+
+#sendimage{
+    width: 23px;
+    height: 23px;
+}
+
+
+.msg-bottom .form-control {
+    color: white; 
+}
+
+.white-text {
+    color: white;
+}
+
+
+.Menu_img{
+    width: 35px;
+    height: 35px;
+    margin-left: 1060px;
+    z-index: 100;
+    margin-top: 33px;
+    position: absolute;
+
+}
+
+/* Base style for the input field */
+.input {
+    border: none; 
+    outline: none; 
+    position: relative; 
+    width: 100%;
+}
+
+/* Style for the underline */
+.underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: rgb(83, 128, 144); 
+    transition: width 0.5s ease-in-out; 
+}
+
+.input-group {
+    position: relative;
+    width: 100%;
+}
+#messageContainer::-webkit-scrollbar-track {
+    border-radius: 20px; /* Rounded corners */
+    background: #333; /* Color of the track */
+}
+
+#messageContainer::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the thumb */
+    border-radius: 20px; /* Rounded corners */
+    border: 2px solid #333; /* Padding around the thumb */
+}
+
+#messageContainer::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the thumb when hovered */
+    border-radius: 20px; /* Rounded corners */
+}
+
+/* Custom scrollbar for Firefox */
+#messageContainer {
+    border-radius: 20px; /* Rounded corners */
+    scrollbar-width: thin; /* Width of the scrollbar */
+    scrollbar-color: #888 #333; /* Color of the thumb and track */
+}
+
+/* Ensure the chat container is scrollable and has a fixed height */
+#messageContainer {
+    height: 400px; /* Adjust the height as needed */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    border-radius: 20px; /* Rounded corners */
+}
+
+.Setting2{
+    position: absolute;
+    margin-left: 97%;
+    width: 31px;
+    height: 25px;
+    z-index: 1005;
+    margin-top: 9px;
+}
+.bell{
+    position: absolute;
+    margin-left: 94.5%;
+    width: 37px;
+    height: 30px;
+    z-index: 1005;
+    margin-top: 6px;
+}
+
+.search_bar1{
+    width: 208px;
+    height: 32px;
+    margin-top: 8px;
+    background-color: rgb(41,41,41);
+    border-radius: 5px;
+    margin-left: 1230px;
+    border: none;
+    padding-left: 40px;
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    padding-right: 20px !important;
+  }
+  .search_bar1:focus{
+    outline: none;
+    border-bottom: 3px solid rgb(49, 96, 239);
+    border-radius: 5px 5px 3px 3px;
+    margin-top: 8px;
+  }
+  
+  .search_tool1{
+    width: 30px;
+    height: 27px;
+    position: absolute;
+    margin-left: 81.1%;
+    margin-top: 10px;
+  }
+  
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+      -webkit-box-shadow: rgb(41,41,41) !important;
+      -webkit-text-fill-color: #ffffff !important; 
+  }
+/* Remove autofill background color in Chrome/Safari */
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    box-shadow: 0 0 0 30px rgb(41,41,41) inset !important;
+    -webkit-text-fill-color: white !important;
+    transition: background-color 5000s ease-in-out 0s !important;
+}
+
+  .HeaderBox1{
+    width: 100%; 
+    height: 47px;
+    background-color: rgba(20,22,23); 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 100; 
+    border: 1px solid black;
+  }
+
+  .channels_head{
+    width: 80.91%;
+    height: 55px;
+    background-color: rgb(31,31,31);
+    position: absolute;
+    border: 1px solid black;
+    margin-left: -0.7px;
+  }
+  .panel .channels_head h1{
+    color: #ffffff;
+    margin-left: 2%;
+    margin-bottom: 0;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    z-index: 100;
+    margin-top: 21px;
+}
+
+  .thin_line{
+    width: 2px;
+    height: 35px;
+    background-color: rgb(61,61,61);
+    position: absolute;
+    z-index: 2006;
+    margin-left: 75%;
+    margin-top: 13px;
+    border-radius: 20px;
+  }

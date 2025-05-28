@@ -1,0 +1,282 @@
+.assignment1{
+    margin: 3%;
+}
+
+.assignment1 h1{
+    color: #ffffff;
+    margin-bottom: 1%;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px;
+    padding-top: 15px;
+    margin-left: -7px;
+}
+
+.tasktable {
+    border-collapse: collapse;
+    font-family: "Inter-Bold", sans-serif;
+    font-weight: lighter;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    table-layout: auto;
+    margin-top: 85px !important;
+}
+
+.tasktable th, .tasktable td {
+    white-space: nowrap; 
+    padding: 12px;
+    text-align: center;
+}
+
+.tasktable th{
+    background-color: rgb(31, 31, 31    );
+    color: white;
+    border: 0.1px solid rgb(249, 249, 249,0.10);
+    width: fit-content;
+    height: 5px;
+    padding: 7.5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: lighter;
+}
+
+.tasktable td {
+    background-color: rgb(51, 51, 51);
+    color: rgb(252, 252, 252);
+    border: 1px solid rgb(255, 255, 255,0.10);
+}
+
+.tasktable tr:hover td {
+    background-color: #3d3d3d;
+    border: 1px solid rgb(255, 255, 255,0.2);
+}
+
+.tasktable .column1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail{
+    display: table-column;
+}
+
+.tasktable .column1 .detail{
+    padding-left: 2%;
+}
+
+.tasktable,
+.tasktable .column1 .detail h1,
+.tasktable .column1 .detail p{
+    font-size: 14px;
+    display: flex;
+    margin: 0;
+}
+
+.tasktable .column1 .detail p{
+    color: rgb(54, 104, 255);
+    margin-left: 9px;
+    font-size: 12px;
+}
+
+.channel {
+    background: #6c6c6c;
+    width: 40px;
+    height: 45px;
+    padding-left: 5px;
+    border-radius: 3px;
+}
+
+.columndisplay{
+    display: flex;
+    flex-direction: column;
+}
+
+.columndisplay input[type="submit"] {
+    background-color: #36f446;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    margin-top: 5px;
+  }
+  
+  .columndisplay input[type="submit"]:hover {
+    background-color: #21cc43; 
+    color: darkgrey;
+  }
+  
+  .panel {
+    background-color: rgba(31,31,31);
+    width: 120%;
+    overflow: hidden;
+    max-height: 735.56px;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: -1px 4px 4px 2px;
+  }
+  .main1{
+    display: flex;
+    background-color: #141414;
+    max-height: 775px;
+  }
+  .blackbox1{
+    position: absolute;
+    width: 310px;
+    height: 70px;
+    background-color: rgba(23,24,25);
+    box-shadow: 2px 2px 4px black;
+  }
+  
+  
+  .HeaderBox {
+    width: 100%; 
+    height: 45px;
+    background-color: rgba(20,22,23); 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 100; 
+    border: 1px solid black;
+  }
+  
+  
+  /* Custom scrollbar for webkit browsers (Chrome, Safari) */
+  ::-webkit-scrollbar {
+    width: 10px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 10px;
+    border: 2px solid #333; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  /* Custom scrollbar for Firefox */
+  body {
+    scrollbar-width: thin; 
+    scrollbar-color: #888 #333; 
+  }
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #333;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+    border: 2px solid #333;
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  
+  .channels_head{
+    width: 81.05%;
+    height: 55px;
+    background-color: rgb(31,31,31);
+    position: absolute;
+    border: 1px solid black;
+  }
+  
+  .Setting2{
+    position: absolute;
+    margin-left: 97%;
+    width: 31px;
+    height: 25px;
+    z-index: 1005;
+    margin-top: 9px;
+  }
+  .bell{
+    position: absolute;
+    margin-left: 94.5%;
+    width: 37px;
+    height: 30px;
+    z-index: 1005;
+    margin-top: 6px;
+  }
+  
+  .search_bar{
+    width: 160px;
+    height: 30px;
+    margin-top: 8px;
+    background-color: rgb(41,41,41);
+    border-radius: 5px;
+    margin-left: 1230px;
+    border: none;
+    padding-left: 40px;
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    padding-right: 8px;
+    max-width: 200px;
+  }
+  .search_bar:focus{
+    outline: none;
+    border-bottom: 3px solid rgb(49, 96, 239);
+    border-radius: 5px 5px 3px 3px;
+    margin-top: 8px;
+  }
+  
+  .search_tool{
+    width: 30px;
+    height: 27px;
+    position: absolute;
+    margin-left: 81%;
+    margin-top: 10px;
+  }
+  
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+      -webkit-box-shadow: rgb(41,41,41) !important;
+      -webkit-text-fill-color: #ffffff !important; 
+  }
+  
+  .thin_line{
+    width: 2px;
+    height: 35px;
+    background-color: rgb(61,61,61);
+    position: absolute;
+    z-index: 2006;
+    margin-left: 75%;
+    margin-top: 13px;
+    border-radius: 20px;
+  }
+
+  .panel h1{
+    color: #e8e8e8;
+    margin-left: 2%;
+    margin-bottom: 0;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 21px;
+  }
+  .HeaderBox1{
+    width: 100%; 
+    height: 46px;
+    background-color: rgba(20,22,23); 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 100; 
+    border: 1px solid black;
+  }

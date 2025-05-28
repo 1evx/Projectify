@@ -1,0 +1,261 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  display: flex;
+  background-color: rgb(23, 24, 25);
+  height: 775px;
+}
+
+.choice{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+  margin: 1%;
+  padding-top: 20px;
+}
+  
+.title,
+.photo{
+  display: flex;
+}
+
+.choice .title h1{
+  font-size: 20px;
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  z-index: 5;
+  margin-top: 25px;
+  z-index: 1;
+}
+.choice .title img{
+  width: 30px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-top: 20px;
+  z-index: 5
+}
+
+.choice h1,
+.choice p {
+  color: #ffffff;
+  text-align: center;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+h2{
+  margin-top: 16.5px;
+  z-index: 10000;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.displaced_logo{
+  margin-top: -10px;
+}
+  
+.profile-frame {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  max-width: 90px; 
+  height: auto; 
+  z-index: 1;
+}
+  
+.user-frame {
+  position: absolute;
+  border-radius: 100%;
+  margin-top: 50px;
+  padding: 5px;
+  max-width: 90px; 
+  z-index: 2;
+}
+  
+.username {
+  font-family: "Inter-Bold", sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  margin: 10px;
+}
+
+.institution {
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 11px !important;
+  font-weight: lighter;
+  margin: 3px;
+  margin-bottom: 10px;
+}
+
+.line {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1.5px;
+  border-radius: 5px;
+  margin-top: 1%;
+  margin-bottom: 15px;
+  width: 90%;
+}
+
+.back{
+  max-height: 30px;
+  width: auto;
+  position: absolute;
+  top: 1%;
+  left: 0.5%;
+  z-index: 100;
+}
+
+.choice a{
+  display: flex; 
+  align-items: center; 
+  text-align: center;
+  background-color: transparent;
+  color: #ffffff;
+  width: 165px;
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  padding-left: 30%;
+  border: none;
+  border-radius: 10px;
+  margin: 1%;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.choice a:hover{
+  background-color: #7493FF; 
+  color: black;
+  border-radius: 5px;
+}
+
+.choice a img {
+  margin-right: 20%;
+  max-height: 35px;
+  width: auto;
+  margin-left: -60px;
+}
+
+.panel {
+  background-color: rgba(31,31,31);
+  width: 120%;
+  overflow: scroll;
+  box-shadow: -1px 4px 4px 2px black;
+  height: 770px;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: -1px 4px 4px 2px;
+  z-index: 10;
+}
+
+.blackbox1{
+  position: absolute;
+  width: 310px;
+  height: 70px;
+  background-color: rgba(23,24,25);
+  box-shadow: 2px 2px 4px;
+}
+
+.HeaderBox{
+  width: 99.9%;
+  height: 46.5px;
+  background-color: rgba(23,24,25);
+  position: absolute;
+  z-index: 100;
+  border: 1px solid black;
+}
+
+.channels_head{
+  width: 81%;
+  height: 55px;
+  background-color: rgb(31,31,31);
+  position: absolute;
+  border: 1px solid black;
+  margin-left: -0.7px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #333; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 10px; 
+  border: 2px solid #333; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+body {
+  scrollbar-width: thin; 
+  scrollbar-color: #888 #333;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #333;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+  border: 2px solid #333;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.Setting2{
+  position: absolute;
+  margin-left: 97%;
+  width: 31px;
+  height: 25px;
+  z-index: 1005;
+  margin-top: 9px;
+}
+.bell{
+  position: absolute;
+  margin-left: 94.5%;
+  width: 37px;
+  height: 30px;
+  z-index: 1005;
+  margin-top: 6px;
+}
+.thin_line{
+  width: 2px;
+  height: 35px;
+  background-color: rgb(61,61,61);
+  position: absolute;
+  z-index: 2006;
+  margin-left: 75%;
+  margin-top: 13px;
+  border-radius: 20px;
+}

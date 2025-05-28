@@ -1,0 +1,365 @@
+.panel {
+  background-color: rgba(31,31,31);
+  width: 120%;
+  overflow: hidden;
+  max-height: 735.56px;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: -1px 4px 4px 2px;
+}
+
+.panel .overview1,
+.panel .milestones1,
+.panel .assignment1{
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.panel .overview1 h1,
+.panel .milestones1 h1,
+.panel .assignment1 h1{
+  color: #ffffff;
+  margin-left: 2%;
+  margin-bottom: 0;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.panel .overview1 .overview2{
+  display: flex;
+  margin: 1%;
+  min-height: 205px;
+}
+
+.over1,
+.over2,
+.over3,
+.over4{
+  background: rgb(41,41,41);
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+}
+
+.over1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.over1 .over1row1{
+  display: flex;
+  align-items: center;
+  margin-left: -300px;
+  margin-top: -200px;
+}
+
+.over1 .over1row2{
+  margin-top: 60px;
+}
+
+.over1 .over1column2{
+  margin-left: 15px;
+  margin-top: 230px;
+  margin-bottom: 40px;
+}
+
+.over1column2 p{
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-family: "Inter-Bold", sans-serif;
+  color: white;
+  margin-right: -100px;
+  margin-top: -15px;
+}
+
+.over1 img{
+  width: 39px;
+  height: 39px;
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 160px;
+}
+
+.over1 .duedatetable {
+  width: 120%;
+  border-collapse: collapse;
+  color: white;
+  font-weight: lighter;
+  font-family: "Inter-Bold", sans-serif;
+  text-align: center;
+  font-size: 10px;
+  margin-left: -30px; 
+  margin-top: -160px;
+  position: relative;
+}
+
+.over1 .duedatetable th, 
+.over1 .duedatetable td {
+  padding: 8px;
+  border: 3px solid white;
+  font-weight: bold;
+}
+
+.panel .overview1 .overview3{
+  display: table-column;
+  width: 30%;
+}
+
+.over2,
+.over3 {
+  width: 96%;
+  height: 48%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.over2 img{
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  margin-left: -125px;
+  margin-top: -45px;
+}
+
+.over2 .over2column2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.over2column2 p{
+  font-size: 15px;
+  font-family: "Inter-Bold", sans-serif;
+  color: white;
+  margin: 0;
+}
+
+.over2column2 .assignmentnumber{
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.over3 img{
+  width: 22px;
+  height: 22px;
+  margin-left: -105px;
+  margin-top: -45px;
+  position: absolute;
+}
+
+.over3 .over3column2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.over3column2 p{
+  font-size: 15px;
+  font-family: "Inter-Bold", sans-serif;
+  color: white;
+  margin: 0;
+}
+
+.over3column2 .channelnumber{
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.over4 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.over4 img{
+  width: 28px;
+  height: 28px;
+  margin-left: -140px;
+  position: absolute;
+}
+
+.over4 .over4row1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.over4 .over4column2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.over4column2 p,
+.over4 .subWork{
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: "Inter-Bold", sans-serif;
+  color: white;
+  margin: 0;
+  text-align: left;
+  display: flex;
+
+}
+
+.over4 .subWork{
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.milestones-container {
+  overflow-x: scroll; 
+  scrollbar-width: thin; 
+  scrollbar-color: #141414 #ffffff;
+  margin-bottom: 5%;
+}
+
+.panel .milestones1 .milestones2{
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+
+.panel .milestones1 .milestones2 img {
+  margin-right: 1%;
+}
+
+
+.panel .assignment1 .assignment2{
+  margin: 1%;
+}
+.tasktable {
+  border-collapse: collapse;
+  font-family: "Inter-Bold", sans-serif;
+  font-weight: lighter;
+  width:97%;
+  margin-bottom: 70px !important;
+  overflow-x: scroll thin;
+  margin: 12px;
+}
+
+.tasktable th {
+  font-size: 15px;
+  background-color: #141414;
+  color: white;
+  padding: 1%;
+  font-weight: lighter;
+  text-align: left;
+  border: 1px solid rgb(255, 255, 255,0.1);
+}
+
+.tasktable td {
+  background-color: rgba(41,41,41);
+  color: white;
+  padding-left: 1%;
+  text-align: left;
+  border: 1px solid rgb(255, 255, 255,0.1);
+}
+
+.tasktable tr:hover td {
+  background-color: rgb(51,51,51);
+}
+
+.tasktable .column1{
+  padding-left: 30px;
+  display: flex;
+}
+
+.detail{
+  display: table-column;
+}
+
+.tasktable .column1 .detail{
+  color: white;
+}
+
+.tasktable .column1 .detail h1{
+  font-size: 12px;
+  display: flex;
+  font-weight: bold;
+  width: 100%;
+  margin-left: 35px;
+}
+
+.tasktable .column1 .detail p{
+  font-size: 12px;
+  display: flex;
+  font-weight: lighter;
+  color: rgb(101, 139, 255);
+  margin: 0;
+  margin-top: 2px;
+  margin-bottom: 9px;
+}
+
+.channel {
+  background: #6c6c6c;
+  border-radius: 5px;
+  width: 35px;
+  height: 35px;
+  margin-left: -18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main1{
+  display: flex;
+  background-color: #141414;
+  max-height: 775px;
+}
+
+.HeaderBox1{
+  width: 100%; 
+  height: 46px;
+  background-color: rgba(20,22,23); 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: 100; 
+  border: 1px solid black;
+}
+
+.blue_line1{
+  width: 4px;
+  height: 185px;
+  background-color: rgb(47, 89, 214);
+  margin-top: 260px;
+  margin-left: -88px;
+  border-radius: 40px 0px 0px 40px;
+  position: relative;
+}
+.blue_line2{
+  width: 4px;
+  height: 85px;
+  background-color: rgb(47, 89, 214);
+  margin-left: -248px;
+  border-radius: 40px 0px 0px 40px;
+  position: absolute;
+}
+.blue_line3{
+  width: 4px;
+  height: 85px;
+  background-color: rgb(47, 89, 214);
+  margin-left: -248px;
+  border-radius: 40px 0px 0px 40px;
+  position: absolute;
+}
+.blue_line4{
+  width: 4px;
+  height: 185px;
+  background-color: rgb(47, 89, 214);
+  margin-left: -444px;
+  border-radius: 40px 0px 0px 40px;
+  position: absolute;
+}

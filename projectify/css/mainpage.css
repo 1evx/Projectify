@@ -1,0 +1,342 @@
+body{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: none;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*** Section 1 - Header ***/
+header {
+  display: flex;
+  min-height: 65px;
+  position: fixed;
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* New class for scrolled header */
+.scrolled {
+  background-color: rgba(238, 239, 241, 0.975); /* Adjust the background color and opacity as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for better visibility */
+  width: 100%;
+  z-index: 5;
+  border-bottom: 3px solid lightgrey;
+}
+
+.headernav,
+header .logo,
+.headerbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Logo Section */
+header .logo{
+  gap: 15px;
+  margin-left: 50px;
+}
+header .logo .logoname{
+  font-weight: bolder;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header .logo .logo1{
+  width: 35px;
+  height: 40px;
+}
+
+/* Navigation Section */
+.headernav {
+  margin: 0 auto;   /*Center The Nav*/
+  padding: 0;
+  gap: 30px;
+  margin-left: 346px;
+  margin-right: 335px;
+}
+header .headernav a{
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header .headernav a:hover{
+  transform: translateY(-3px) ease;
+  color: #007bff;
+}
+
+/* Button Section */
+header .headerbutton button{
+  margin-right: 2px;
+  margin-left: 2px;
+  padding: 6px 20px 6px 20px;
+  border-radius: 5px;
+  transition: 0.2s;
+  row-gap: 10px;
+  font-weight: bolder;
+}
+.headerbutton button:hover{
+  background-color: #000000;
+  color: white;
+}
+
+/* Banner */
+.banner{
+  min-height: 600px;
+  position: relative;
+  background-image: url('../image/homebanner.png');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.title h1{
+  font-weight: bolder;
+  font-size: 30px; 
+  margin-left: 1665px;
+  margin-top: -840px;
+  position: absolute;
+  width: 500px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title h2{
+  font-weight: bolder;
+  font-size: 25px;
+  margin-left: 1930px;
+  margin-top: -720px;
+  position: absolute;
+  width: 1000px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* System and Features */
+.middle1{
+  display: flex;
+  justify-content: center;
+  background-color: #141414;
+}
+.container {
+  max-width: 1200px;
+}
+
+.container .content {
+  margin: 50px 0px 0px 0px;
+  color: #333;
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.container .content h1{
+  color: white;
+  margin-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-container .card {
+  height: 250px;
+  width: 300px;
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.card h4 {
+  font-weight: 600;
+  margin: 10px 0px;
+}
+
+.card p {
+  font-size: 12px;
+}
+
+.container .btn {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container .btn button {
+  height: 40px;
+  width: 150px;
+  border: black solid;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .card-container {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+}
+
+
+/* Centralized Project Hub AND Task Tracking and Management */
+.middle3{
+  margin: 10%;
+}
+.middle3 .middle-3,
+.middle3 .middle-31{
+  display: flex;
+  margin-bottom: 60px;
+}
+.middle-3 .containermiddle-3{
+  display: flex;
+}
+.middle3 img{
+  width: 500px;
+}
+.middle-3 .middle-3text1{
+  margin-left: 6%;
+  margin-top: 2%;
+}
+.middle-3 .middle-3text1 h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+.middle-3 .middle-3text1 p{
+  font-size: 18px;
+}
+.middle-31 .middle-3text2{
+  margin-right: 6%;
+  margin-top: 3%;
+}
+.middle-31 .middle-3text2 h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+.middle-31 .middle-3text2 p{
+  font-size: 18px;
+}
+
+
+/*  */
+.footer{
+  width: 100% ;
+  height: auto;
+}
+
+.footer .footerimg{
+  width: 100%;
+}
+
+
+.title h1 {
+  font-weight: bolder;
+  font-size: 30px; 
+  margin-left: 1665px;
+  margin-top: -840px;
+  position: absolute;
+  width: 500px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 1;
+  animation: slideIn 2s forwards;
+  
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+  .title h2{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 1930px;
+    margin-top: -720px;
+    position: absolute;
+    width: 1000px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 1;
+    animation: slideIn 2s forwards;
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+.middle3{
+  margin: 10%;
+  animation: slideIn 5s backwards;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.card-container .card {
+  height: 250px;
+  width: 300px;
+  background: #fff;
+  margin: 20px;
+  padding: 15px;
+  border-radius: px;
+  transition: transform 0.2s ease-in-out;
+
+}
+
+.card-container .card:hover {
+  transform: scale(1.03);
+}
+
+middle3{
+  margin: 10%;
+  animation: slideIn 5s backwards;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

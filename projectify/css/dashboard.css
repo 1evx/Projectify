@@ -1,0 +1,72 @@
+body{
+  margin: 5%;
+}
+.user{
+  display: flex;
+  width: 100%;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+.user .logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user .logo1{
+  width: 35px;
+  height: 40px;
+}
+.user .logo2{
+  width: 150px;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.userprofile{
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.user .userborder1{
+  width: 250px;
+}
+.menu .menu1{
+  display: flex;
+  width: 100%;
+  margin-left: 15%;
+}
+
+.Profileschool{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Profileschool h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+/*  */
+.user .userborder2{
+  width: 100%;
+  height: auto;
+  border: black solid;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+  

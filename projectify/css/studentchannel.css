@@ -1,0 +1,407 @@
+body{
+    margin: 0;
+}
+
+.main1{
+    display: flex;
+    background-color: #141414;
+    height: 775px;
+}
+
+.choice{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    margin: 1%;
+  }
+  
+  .title,
+  .photo{
+    display: flex;
+  }
+  
+  .choice .title h1{
+    font-size: 20px;
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 5;
+    margin-top: 25px;
+  }
+  .choice .title img{
+    width: 30px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 20px;
+    z-index: 5
+  }
+  
+  .choice h1,
+  .choice p {
+    color: #ffffff;
+    text-align: center;
+    font-family: "IstokWeb-Bold", sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  
+  .profile-frame {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    max-width: 90px; 
+    height: auto; 
+    z-index: 1;
+  }
+  
+  .user-frame {
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 50px;
+    padding: 5px;
+    max-width: 80px; 
+    z-index: 2;
+  }
+  
+  .username {
+    font-family: "Inter-Bold", sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 10px;
+  }
+  
+  .institution {
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 11px !important;
+    font-weight: lighter;
+    margin: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .line {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1.5px;
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-bottom: 15px;
+    width: 90%;
+  }
+  
+  .choice button {
+    display: flex; 
+    align-items: center; 
+    background-color: transparent;
+    color: #ffffff;
+    width: 100%;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    padding-left: 10%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .choice .button:hover,
+  .choice button:hover {
+    background-color: rgb(39, 86, 249);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+  
+  .choice button img {
+    margin-right: 15%;
+    max-height: 30px;
+    width: auto;
+  }
+  .panel {
+    background-color: rgba(31,31,31);
+    width: 119%;
+    overflow: hidden;
+    height: 735.56px;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: -1px 4px 4px 2px;
+}
+
+.panel .add-channel{
+    top: 5%;
+    right: 3%;
+    position: absolute;
+    max-height: 40px;
+    width: auto;
+}
+
+.panel .channel1{
+    width: 100%;
+    padding: 10px;
+}
+
+.panel .channel1 .channel2 h1{
+    color: #ffffff;
+    margin-left: 1%;
+    margin-bottom: 0;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    z-index: 100;
+    margin-top: 12px;
+}
+
+.panel .channel2{
+    display: flex;
+    align-items: center;
+}
+
+.panel .channel2 img{
+    margin-top: 1.5%;
+    margin-left: 1%;
+    max-height: 30px;
+    width: auto;
+}
+
+.panel .channel3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1%;
+    margin-left: 2.5%;
+    margin-right: 2%;
+    margin-top: 30px;
+}
+
+.channel-container {
+    background: rgba(41,41,41);
+    border-radius: 7px;
+    width: 260px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+    border: 1px solid rgb(255,255,255,0.1);
+    box-shadow: 1px 1px 2px black;
+    margin: 12px;
+}
+
+.channel-container:hover{
+  background-color: rgba(51,51,51);
+  border: 1px solid rgb(255,255,255,0.35);
+  box-shadow: 1px 1px 2px black;
+  width: 260px;
+}
+
+.channel-container img {
+  width: auto;
+  height: auto;
+  max-width: 70px;
+  max-height: 70px;
+  border-radius: 6px;
+  margin-left: -160px;
+}
+
+.channel-container h1 {
+  color: #ffffff;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  position: absolute;
+  margin-left: 80px;
+  width: 145px;
+}
+
+.createChannelContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 10%;
+  height: 170px;
+  background-color: black;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 2%;
+  z-index: 1005;
+}
+
+
+.createChannelContainer h1{
+  font-family: "Inter-Bold", sans-serif;
+  color: white;
+  margin: 0;
+  margin-top: 15px;
+  font-size: 16px;
+  z-index: 1000;
+}
+
+.createChannelContainer span{
+  font-family: "Inter-Bold", sans-serif;
+  color: white;
+  padding-top: -50px;
+  font-size: 12px;
+  word-spacing: 2px;
+  width: 250px;
+  z-index: 1000;
+}
+
+.createChannelContainer .social-icons{
+  margin: 0px;
+  gap: 20px;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Initial styles for the input fields */
+.createChannelContainer label,
+.createChannelContainer select,
+.createChannelContainer input,
+.createChannelContainer textarea {
+  background-color: rgb(41,41,41); 
+  color: rgba(128, 130, 128, 0.9); 
+  border: none;
+  border-bottom: 2px solid rgba(49, 175, 49, 0.1); 
+  font-size: 13px;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  outline: none;
+  margin-top: 20px;
+  z-index: 1000;
+  border-radius: 4px;
+  transition: border-color 0.15s ease-in-out;
+}
+
+.createChannelContainer label:focus,
+.createChannelContainer select:focus,
+.createChannelContainer input:focus,
+.createChannelContainer textarea:focus {
+  border-bottom: 2px solid rgb(28, 120, 212); 
+  color: #ffffff; 
+  z-index: 1000;
+}
+.createChannelContainer label:hover,
+.createChannelContainer select:hover,
+.createChannelContainer input:hover,
+.createChannelContainer textarea:hover {
+  border-bottom: 2px solid rgb(28, 120, 212); 
+  color: #ffffff; 
+  z-index: 1000;
+}
+
+.createChannelContainer textarea {
+  resize: vertical; 
+  height: 20px;
+  max-height: 200px;
+  z-index: 1000;
+}
+
+.createChannelContainer .back-icon {
+  position: absolute; 
+  top: 3%;
+  left: 3%;
+  display: inline-flex; 
+  justify-content: center;
+  align-items: center;  
+  font-size: 12px; 
+  color: black; 
+  font-weight: bold;
+  text-decoration: none; 
+  width: 28px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.9); 
+  padding: 4px; 
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.createChannelContainer .back-icon:hover{
+  background-color: rgb(28,120,212);
+}
+
+.createChannelContainer button{
+  color: #141414;
+  font-size: 10px;
+  border: 1px solid (255,255,255,0.3);
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+  font-weight: bolder;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.createChannelContainer button:hover{
+  background-color: rgb(28, 120, 212); 
+  border: none;
+  color: white;  
+}
+
+button[name="btnJoinChannel"] {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+button[name="btnJoinChannel"] img {
+  display: block;
+  width: 27px; 
+  height: 27px;
+  position: absolute;
+  margin-left: 1090px;
+  margin-top: -37px;
+}
+
+.menu-image{
+  width: 30px !important;
+  height: 30px !important;
+  position: absolute;
+  margin-right: -390px;
+  margin-top: -85px;
+}
+
+.back_box {
+  position: absolute;
+  width: 1538px;
+  height: 995px;
+  margin-top: -500px;
+  margin-left: -700px;
+  top: 1;
+  left: 1;
+  right: 1;
+  bottom: 1;
+  background-color: rgb(41,41,41,0.95); /* Change this to any color you want for the back box */
+  z-index:-1; /* Ensure this is below the createChannelContainer content */
+}
+
+.Menu_display{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-left: 1040px;
+  margin-top: -25px;
+}
+
+.thin_line{
+  width: 2px;
+  height: 35px;
+  background-color: rgb(61,61,61);
+  position: absolute;
+  z-index: 2006;
+  margin-left: 75%;
+  margin-top: 13px;
+  border-radius: 20px;
+}
