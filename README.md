@@ -8,7 +8,6 @@ The goal of Projectify is to improve how students and educators manage academic 
 
 It also includes features for lecturers and administrators to monitor progress, manage users and institutions, and provide meaningful feedback. With a focus on usability, Projectify aims to streamline the educational project experience for all users.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -16,7 +15,6 @@ It also includes features for lecturers and administrators to monitor progress, 
 - **Back-End**: PHP
 - **Database**: MySQL (via XAMPP)
 
----
 
 ## 📦 Features
 
@@ -36,7 +34,6 @@ It also includes features for lecturers and administrators to monitor progress, 
 - Structured Testing Plan (Unit + UAT)
 - Extensive User Manuals for each role
 
----
 
 ## 🗂️ Project Documentation Highlights
 
@@ -48,7 +45,6 @@ It also includes features for lecturers and administrators to monitor progress, 
 - Key Code Highlights
 - Workload Matrix for contribution tracking
 
----
 
 ## 📈 Contribution & Acknowledgements
 
@@ -61,17 +57,12 @@ This project was collaboratively developed by:
 
 We would also like to express our sincere gratitude to our lecturers and mentors who supported and guided us through the development of this project.
 
----
 
 ## 📋 Workload Matrix
 
 A detailed workload matrix is included in the documentation, ensuring fair and transparent contribution across all team members.
 
----
 
 ## 🎯 Conclusion
 
 Projectify reimagines student project collaboration with a purpose-built web platform. It combines the strengths of existing learning management systems with improved tools for academic project workflows, feedback loops, and communication — making it easier for students to succeed and for educators to support them effectively.
-
----
-
